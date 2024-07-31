@@ -18,5 +18,5 @@ A custom built sound attenuated operant chamber for reinforcement learning studi
 A Raspberry Pi was used to record multi-hour long video recordings for various experiments. The code could be modified so recording could be indefinate as seen with CCTV:
 ![alt-text-2](https://github.com/DJESTRIN/CameraSync/blob/NAS/hardware_images/IMG_6451.PNG?raw=true "title 2") 
 
-Raspberry Pi Camera:
+A Raspberry Pi High Quality Camera was also used for recordings. 
 ![alt-text-3](https://github.com/DJESTRIN/CameraSync/blob/NAS/hardware_images/IMG_6447.PNG?raw=true "title 3") 
