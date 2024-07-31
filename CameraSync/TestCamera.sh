@@ -10,7 +10,7 @@ echo $message
 for line in $Lines;
 do
 echo ${line[0]}
-sshpass -p "estrin1" ssh -n -tt ${line[0]} 'tag=$(date "+%Y%m%d%H%M%S") && screen -dmS $tag bash -c "echo $message; exec bash" && screen -r $tag -p 0 -X stuff "bash /home/pi/TMT_BEHAVIOR/RUN.sh\n" && exit; exec bash -l'
+sshpass -p "" ssh -n -tt ${line[0]} 'tag=$(date "+%Y%m%d%H%M%S") && screen -dmS $tag bash -c "echo $message; exec bash" && screen -r $tag -p 0 -X stuff "bash /home/pi/TMT_BEHAVIOR/RUN.sh\n" && exit; exec bash -l'
 done
 
 sleep 60
@@ -19,7 +19,7 @@ echo "Zipping videos"
 while IFS=, read IP box; do
 echo "Zipping videos for box" $box
 mkdir -p ~/test_video_archive/${box}/
-sshpass -p "estrin1" rsync -chavzP --stats $IP:/home/pi/NAS/test_zip.zip /home/pi/test_video_archive/$box/ || echo "Error occured for " $box
+sshpass -p "" rsync -chavzP --stats $IP:/home/pi/NAS/test_zip.zip /home/pi/test_video_archive/$box/ || echo "Error occured for " $box
 done < IPS.txt
 
 while IFS=, read IP box; do
