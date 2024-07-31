@@ -20,3 +20,5 @@ A Raspberry Pi was used to record multi-hour long video recordings for various e
 
 A Raspberry Pi High Quality Camera was also used for recordings. 
 ![alt-text-3](https://github.com/DJESTRIN/CameraSync/blob/NAS/hardware_images/IMG_6447.PNG?raw=true "title 3") 
+
+⚠️ <b> Note: </b> some code and files have been removed from this repo ⚠️
