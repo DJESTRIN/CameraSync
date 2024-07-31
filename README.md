@@ -7,4 +7,4 @@ Necessary Hardware:
 -Network Attached Storage :floppy_disk:
 -Ethernet router :fax:
 
-![alt text](https://github.com/DJESTRIN/CameraSync/blob/NAS/hardware_images/IMG_6448.PNG?raw=true)
+![alt-text-1](https://github.com/DJESTRIN/CameraSync/blob/NAS/hardware_images/IMG_6448.PNG?raw=true "title 1") ![alt-text-2](https://github.com/DJESTRIN/CameraSync/blob/NAS/hardware_images/IMG_6448.PNG?raw=true "title 2")
